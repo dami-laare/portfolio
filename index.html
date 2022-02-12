@@ -145,7 +145,7 @@
             // let about = $('#about');
 
             $(window).scroll(() => {
-                let total = $(window).height() + $(window).scrollTop();
+                let total = $(window).height() + $(window).scrollTop() - 200;
                 if(total > $('#about').position().top){
                     $('#about').addClass('appear');
                 }

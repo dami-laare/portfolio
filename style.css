@@ -170,7 +170,7 @@
 .fade-in {
     opacity: 0;
     transform: translateX(-100vw);
-    transition: opacity 1000ms ease, transform 600ms ease;
+    transition: opacity 1400ms ease, transform 1000ms ease;
 }
 .fade-in.appear {
     opacity: 100%;
